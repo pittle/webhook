@@ -5,7 +5,7 @@ const fs = require("fs");
 const { execSync } = require("child_process");
 const handler = createHandler({
   path: "/webhook",
-  secret: "myhashsecret",
+  secret: "mySecretKiKoHashKey",
 }); //创建实例，path和secret是自定义的，后面在github上配置时需要保持一致
 
 
