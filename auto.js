@@ -8,6 +8,7 @@ const handler = createHandler({
   secret: "myhashsecret",
 }); //创建实例，path和secret是自定义的，后面在github上配置时需要保持一致
 
+
 http.createServer(function (req, res) {
   handler(req, res, function () {
     res.statusCode = 200;
