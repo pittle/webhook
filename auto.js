@@ -25,6 +25,7 @@ handler.on("push", function (event) {
     });
   }
 
+
   // 拉取仓库最新代码
   execSync(
     `git clone https://github.com/pittle/webhook.git ${projectDir}`,
